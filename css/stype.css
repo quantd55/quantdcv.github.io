@@ -3,7 +3,7 @@ body {
   color: #6c757d;
 }
 
-@media (min-width: 992px) {
+@media (min-width: 990px) {
   body {
     padding-top: 0;
     padding-left: 17rem;
@@ -21,22 +21,53 @@ h6 {
 h1 {
   line-height: 1;
 }
-#side-bar {
-  position: fixed;
-  top: 0;
-  left: 0;
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-  width: 17rem;
-  height: 100vh;
-  background-color: rgb(25, 153, 204);
+@media (min-width: 990px) {
+  #side-bar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    width: 17rem;
+    height: 100vh;
+    background-color: rgb(25, 153, 204);
+  }
+
+  #side-bar .navbar-brand {
+    display: flex;
+    margin: auto auto 0;
+    padding: 0.5rem;
+  }
+
+  #side-bar .navbar-brand .img-profile {
+    max-width: 10rem;
+    max-height: 10rem;
+    border: 0.5rem solid rgba(255, 255, 255, 0.2);
+  }
+
+  #side-bar .navbar-collapse {
+    margin-bottom: auto;
+    display: flex;
+    align-items: flex-start;
+    width: 100%;
+    flex-grow: 0;
+  }
+
+  #side-bar .navbar-collapse .navbar-nav {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  #side-bar .navbar-collapse .navbar-nav .nav-item {
+    display: block;
+  }
+
+  #side-bar .navbar-collapse .navbar-nav .nav-item .nav-link {
+    display: block;
+  }
 }
 
 .cv-section {
   padding: 3rem 5rem;
-}
-
-#side-bar .navbar-collapse .navbar-nav {
-  flex-direction: column;
 }
