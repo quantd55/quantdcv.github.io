@@ -1,0 +1,42 @@
+body {
+  padding-top: 3.375rem;
+  color: #6c757d;
+}
+
+@media (min-width: 992px) {
+  body {
+    padding-top: 0;
+    padding-left: 17rem;
+  }
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  text-transform: uppercase;
+}
+
+h1 {
+  line-height: 1;
+}
+#side-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  width: 17rem;
+  height: 100vh;
+  background-color: rgb(25, 153, 204);
+}
+
+.cv-section {
+  padding: 3rem 5rem;
+}
+
+#side-bar .navbar-collapse .navbar-nav {
+  flex-direction: column;
+}
