@@ -14,20 +14,20 @@
 
 <body>
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="side-bar">
-        <span class="d-block d-lg-none">Quan Tran</span>
-        <span class="d-none d-lg-block">
-            <a class="navbar-brand js-scroll-trigger" href="#">
+        <a class="navbar-brand js-scroll-trigger" href="#">
+            <span class="d-block d-lg-none">Quan Tran</span>
+            <span class="d-none d-lg-block">
                 <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="https://picsum.photos/300/300"
                     loading="lazy">
-            </a>
-        </span>
-        <div class="collapse navbar-collapse" id="sidebar-link">
+            </span>
+        </a>
+        <div class="collapse navbar-collapse show" id="sidebar-link">
             <ul class="navbar-nav">
                 <li class="navbar-item">
-                    <a class="nav-link" href="#">About</a>
+                    <a class="nav-link active" href="#about">About</a>
                 </li>
                 <li class="navbar-item">
-                    <a class="nav-link" href="#">Experience</a>
+                    <a class="nav-link" href="#experience">Experience</a>
                 </li>
                 <li class="navbar-item">
                     <a class="nav-link" href="#">Education</a>
@@ -42,16 +42,35 @@
         </div>
     </nav>
     <div class="container-fluid p-0">
-        <section class="cv-section">
+        <section class="cv-section" id="about">
             <div class="section-content">
-                <h1>Tran Dinh Quan</h1>
-                <div class="my-info"></div>
-                <p class="about-me"></p>
-                <div class="social-icon"></div>
+                <h1 class="mb-0">Trần Đình
+                    <span class="text-primary"> Quân</span>
+                </h1>
+                <div class="my-info subheading mb-5">
+                    Số 7 ngõ 139 Tân Mai, Q.Hoàng Mai, Hà Nội · 0985 756 904 · <a
+                        href="mailto:name@email.com">quan.td55@gmail.com</a>
+                </div>
+                <p class="about-me lead mb-5">
+                    I am experienced in leveraging agile frameworks to provide a robust synopsis for high level
+                    overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the
+                    overall value proposition.
+                </p>
+                <div class="social-icons">
+                    <a class="social-icon" href="#"><i class="fab fa-linkedin-in"></i></a>
+                    <a class="social-icon" href="https://github.com/quantd55"><i class="fab fa-github"></i></a>
+                    <a class="social-icon" href="https://fb.com/quantd55"><i class="fab fa-facebook-f"></i></a>
+                </div>
+            </div>
+        </section>
+        <section class="cv-section" id="experience">
+            <div class="section-content">
+                dsasdad
             </div>
         </section>
     </div>
     <script src="./bootstrap-4.5.0-dist/js/bootstrap.min.js"></script>
+    <script src="https://use.fontawesome.com/releases/v5.13.0/js/all.js" crossorigin="anonymous"></script>
     <script src="./js/index.js"></script>
 </body>
 
