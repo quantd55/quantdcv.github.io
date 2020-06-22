@@ -16,6 +16,10 @@ body {
   color: #1999cc !important;
 }
 
+.bg-primary {
+  background-color: #1999cc !important;
+}
+
 a {
   color: #1999cc;
 }
